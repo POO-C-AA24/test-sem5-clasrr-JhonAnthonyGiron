@@ -14,8 +14,10 @@ public class Terreno{
         else if (area >= 200)
                 costoFinal *= 0.9; //costoFinal =  (area*vmc) - (area*vmc)*0.1;
     }
+
     @Override
     public String toString() {
         return "Terreno{" + "alto=" + alto + ", ancho=" + ancho + ", vmc=" + vmc + ", area=" + area + ", costoFinal=" + costoFinal + '}';
     }
+    
 }
